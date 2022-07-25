@@ -53,11 +53,18 @@ header nav ul li a {
 
 /* Body */
 .section-title {
-    color: #628cad;
     font-size: 28px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
+}
+
+#contact-me {
+    color: white;
+}
+
+#about-me, #work {
+    color: #628cad
 }
 
 .vertical-line {
@@ -66,3 +73,25 @@ header nav ul li a {
     margin-left: 65px;
 }
  
+#contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #628cad;
+    color: white;
+    padding: 10px;
+}
+
+section nav ul li {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+section nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.8vw;
+    color: white;
+}
