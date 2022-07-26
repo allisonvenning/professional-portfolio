@@ -3,6 +3,7 @@ header {
  background-color: #628cad;
  margin: 0px;
  font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
  justify-content: space-between;
  flex-wrap: wrap;
  background-image: url("https://lh3.googleusercontent.com/GF6HSqASYkDSyFWdD2EbaJL1PoyFqa9RAQY1EwTuJ71wkpk7xfNxH5y4Mt6KL5URufX5ewJt6-ZZ7ZRE5F2INRBYHt4YdJyyInsBZ1UyhqH2v0iwwlT53BaHQ0RayxtUuf7QTOxeTckGsNcVazg7_u0BZhjqE2FPva98WX4X6kmP6cFyye-l9b9645f6QqGKx5CTFIe8WwVGQQTcmAnlJczBpKSyU00t-dRXK47SegcHkhfLmpTnjZiGDqf09UUCqtRK2ZRGX4cTKatrTzqLw0Q7_n2LDAK1MWyXyDIPT0AWF74A719MJLF9hrZbvB9_DAVPJmUwa3mMwrDiFg11dF6-HETNVzr9DOub5KNN6P5gYYkSrsIxRtIzpkk3NbUKfhRDKdXvylqatTFot7_rHCcHtGTZEFH9kMYy6RzA5rv47O65mkXVfP8XSBJ08HD2RthHV0BhQ5-QeR8RbSepiSmqywZ0itjrg6saRjrnow4kxPYG71kY5aFB16Wv6g_75-3WEwsrwqITBXIcnFvUA1Dk_O7OU7DkHvPtUNJzmU3ymUhbwudHLQOM9ekXlPF9bRPn_7Px5B5VcWhhqrxMYdrzrqDzUSAHV3lVaPlT1a_j-GCWGtTcm9ezKGJtQvS5uXMSfCbLCZKiGk_bO6T9GnLHVj09YWghyklySh0nCFuQkMJ590sFmblCuRtXep7J8YR0hYDrNw9aGeiTC4rtz7JgPLjMtbNb9CBcVokQAOd2SHruFDiXDb2hqkM81as=s864-no?authuser=0");
@@ -19,6 +20,7 @@ header h1 a {
     text-decoration: none;
     background-color: white;
     padding: 10px;
+    margin: 20px;
 }
 
 header nav ul {
@@ -29,6 +31,7 @@ header nav ul {
     background-color: white;
     color: #628cad;
     padding: 10px;
+    margin-right: 20px;
 }
 
 header nav ul li a {
@@ -54,9 +57,10 @@ header nav ul li a {
 /* Body */
 .section-title {
     font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 #contact-me {
@@ -67,10 +71,21 @@ header nav ul li a {
     color: #628cad
 }
 
+#about-me p {
+    margin: 0 10px 0 250px;
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
 .vertical-line {
     border-left: 2px solid #8abfa6;
-    height: 100px;
-    margin-left: 65px;
+    height: 75px;
+    margin-left: 200px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
 }
  
 #contact-me {
@@ -80,13 +95,13 @@ header nav ul li a {
     list-style: none;
     background-color: #628cad;
     color: white;
-    padding: 10px;
 }
 
 section nav ul li {
     list-style: none;
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 section nav ul li a {
@@ -94,4 +109,5 @@ section nav ul li a {
     font-weight: lighter;
     font-size: 1.8vw;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
