@@ -73,10 +73,12 @@ header nav ul li a {
 
 #about-me p {
     margin: 0 10px 0 250px;
-    
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+
+.container {
+    border: red 5px solid;
 }
 
 .vertical-line {
