@@ -80,14 +80,18 @@ header nav ul li a {
     float: right;
 }
 
-.run-buddy {
-    display: flex;
-    border: red solid 2px;
+#work {
     flex-wrap: wrap;
-    width: 75%;
-    float: right;
-    margin-top: 20px;
-    height: 150px;
+}
+
+h3 {
+    color: #628cad;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.project {
+    width: 50px;
+    margin: auto;
 }
 
 .contact-me {
